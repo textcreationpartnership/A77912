@@ -1,0 +1,546 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Constitutio liberi populi. Or, The rule of a free-born people. By William Ball of Barkham, Esquire.</title>
+            <author>Ball, William.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1646</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 49 KB of XML-encoded text transcribed from 14 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A77912</idno>
+            <idno type="STC">Wing B588</idno>
+            <idno type="STC">Thomason E341_1</idno>
+            <idno type="STC">ESTC R200893</idno>
+            <idno type="EEBO-CITATION">99861515</idno>
+            <idno type="PROQUEST">99861515</idno>
+            <idno type="VID">113652</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A77912)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 113652)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 55:E341[1])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Constitutio liberi populi. Or, The rule of a free-born people. By William Ball of Barkham, Esquire.</title>
+                  <author>Ball, William.</author>
+               </titleStmt>
+               <extent>[4], 22, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>Printed, anno Dom. 1646.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place of publication from Wing.</note>
+                  <note>Running title: The rule of a free-born people.</note>
+                  <note>The final leaf is blank.</note>
+                  <note>Annotation on Thomason copy: "June 18th London".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Political science --  Early works to 1800.</term>
+               <term>Democracy --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-10</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-03</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2013-03</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:113652:1" rendition="simple:additions"/>
+            <pb facs="tcp:113652:1" rendition="simple:additions"/>
+            <p> 
+               <hi>Conſtitutio Liberi Populi.</hi> OR, THE RULE OF A Free-born People. <hi>BY</hi> WILLIAM BALL OF <hi>BARKHAM, ESQVIRE.</hi>
+            </p>
+            <q>
+               <hi>In Deum Omnia.</hi>
+            </q>
+            <p>Printed, <hi>Anno Dom.</hi> 1646.</p>
+            <pb facs="tcp:113652:2"/>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:113652:2"/>
+            <head>
+               <hi>TO THE HONOVRED.</hi> The Right Worſhipfull <hi>SIR FRANCIS PILE BARONET.</hi>
+            </head>
+            <head type="sub">
+               <hi>William Ball</hi> of <hi>Barkham,</hi> wiſheth health, and happineſſe.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>HE diſtreſſed Countie of <hi>Berks</hi> thinks it ſelf happy in theſe unhappy times (I ſpeak in reſpect of the pre<g ref="char:EOLhyphen"/>ſent extrinſecall calamities) to have acceſſe, for redreſſe to ſo worthy a Patriot as your ſelfe; and my ſelf alſo, think my ſelf happy in ſo honoured
+<pb facs="tcp:113652:3"/> an acquaintance: what benefit <hi>Berks</hi> hath my Pen may ſpare, their Tongues ſpeake; what benefit I have, I cannot gratiſie; but to ſhew or manifeſt <hi>Actum Amicitiae,</hi> an Act, or Terme of due reſpective friendſhip, I have dedicated unto you this ſmall ſubſequent En<g ref="char:EOLhyphen"/>deavour, wherein if any thing may be worthy acceptation, I requeſt your acceptance thereof, and to acknowledge</p>
+            <q>
+               <l>Quicquid bonum, Bonum Dei;</l>
+               <l>Quicquid malum, malum mei.</l>
+            </q>
+            <p>Which courteous favour I know you will vouchſafe to</p>
+            <closer>
+               <dateline>
+                  <hi>LONDON,</hi> 
+                  <date>
+                     <hi>this</hi> 12. <hi>of</hi> May, 1646.</date>
+               </dateline>
+               <signed>Your Friend, and Servant to his power, WILLIAM BALL.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:113652:3"/>
+            <head>
+               <hi>Conſtitutio Populi liberi.</hi> OR, THE RULE OF A FREE-BORN PEOPLE.</head>
+            <p>
+               <seg rend="decorInit">F</seg>Irſt, Reaſon is Queen-Regent of Hu<g ref="char:EOLhyphen"/>mane Affaires; by the ſight whereof men diſcern to walke in the prudent paths of Morality and Policy, even as by the Light of the Day they diſc<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rne to tread the paths of the Earth; And albeit that this interior light of under<g ref="char:EOLhyphen"/>ſtanding is in Divine things d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rkened, by the fall of our firſt Parent, yet doth the Eternall Light eve<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> communicate to Mankind ſufficiency of Reaſon (I intend for worldly things) thereby to direct his goings out, and comings in according to the un-neceſſitating de<g ref="char:EOLhyphen"/>termination of God) as it were by a cloudy Day-light, though not a cleare Sun-ſhine, whereby the Actions of men may ſeverally be diſcerned.</p>
+            <pb n="2" facs="tcp:113652:4"/>
+            <p n="2">2. Not <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ong ſince I wrote a ſmall Treatiſe, intituled<g ref="char:punc">▪</g> 
+               <hi>Tractatus de ju<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e Regnandi, ei Regni,</hi> or the Sphear of Go<g ref="char:EOLhyphen"/>vernment the which a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>beit I conceived that I had ſquared it according to t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e Ru<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e of Reaſon; yet ſome conceive, that it wants its true proportion, or line, and that I have too much extended the <hi>In<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>te liberty of the Free-bo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n Peo<g ref="char:EOLhyphen"/>ple o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> England:</hi> to ſatisfie (or otherwiſe convince) ſuch, I have pu<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>iſhed this Epitome of State-Ru<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e, or Govern<g ref="char:EOLhyphen"/>ment deſiring all men to weigh, and con<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ider what I have written, not with the Prejudicating Eye of Affectation (whic<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> many times miſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eadeth apprehenſive judgments) but with the Ballance of Reaſon to ponder every Graine, and if the weight <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e juſt and levell to approve and accept of it; if <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>omewhat too light, to adde of their own under<g ref="char:EOLhyphen"/>ſtandings what is def<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>cient</p>
+            <p n="3">3. It is certain that had Man never fell from his ſtate of Innocence, there had <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>in <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſuperiority, or rather <hi>priority</hi> in Nature <hi>(viz.</hi> That the Parent <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d have been known and reverenced as the Inſtrumental cauſe of the Child, &amp;c.) but there had bin no ſo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eraignty, and con<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>equently no ſubjection; for <note place="margin">
+                  <hi>Spirituum coeleſtium datur ſupe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>io<g ref="char:EOLhyphen"/>ri<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>as,</hi> ſive Prio<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>itas; <hi>quamvis omnes <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>iſione beatifica perfruuntur: non ta<g ref="char:EOLhyphen"/>men ſubjectantur inter ſe, vel ad in <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>, quia talis ſubjectio viſioni <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>, cui Omnes illi ſpiritus ordi<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>antur, oppoſita foret; et Ratio eſt, quia ſi natura eſt libera, liberrima Glo<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ia; at ſummae libertali non conve<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>it ſubjectio, ſubordinata: preterea quilib<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t ſpiritus caeleſtis apprehen<g ref="char:EOLhyphen"/>den<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Gloriam Dei per ſe, vel in ſe, &amp; non per al<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>um, vel in alio, non ſuffi<g ref="char:EOLhyphen"/>ciens habe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>et beneficium, ut ſe <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>al<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> creaturae ſubjiceret, cum in Creatore perf<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ctam ſimul omnium fruitionem habeat; utcun<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> tendentiam Reve<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>enciae inferiores ordine ſpiritus ſupe<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>io<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>bus, B<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nig<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>itatis ſuperiores infe<g ref="char:EOLhyphen"/>rio<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ibus adhibere probabile eſt.</hi>
+               </note> had there been no ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nne there had <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>een no need of a juſticiating Power, nor a Subject to which that Power could have determinated or <hi>terminated</hi> it ſelf; every mans Actions would have been regulated by the <hi>Eternall Law,</hi> written in the hearts of men; So that there had been no need of Additionall, or Nationall Lawes: wherefore (by the way) I cannot aſſent to the Opi<g ref="char:EOLhyphen"/>nion of that Gentleman <hi>(Forteſcue)</hi> who ſaid, that <hi>all Mankind ſhoul<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> have been governed by the Lawes of</hi> England, <hi>if</hi> Adam <hi>had not ſinned in</hi> Paradiſe; for by his favour if <hi>Adam</hi> had never ſin<g ref="char:EOLhyphen"/>ned
+<pb n="3" facs="tcp:113652:4"/>
+[in School-Reaſon, or Divinity] he had either always lived in Paradice, or elſe finiſhed a compleat thouſand years (which the Apoſtle <hi>Peter</hi> calls a Day with God, 2 <hi>Pet.</hi> 3. 8.) and then had he either been aſſumed into Heaven alive or elſe (if God had decreed a ſeparation be<g ref="char:EOLhyphen"/>tween his Soul and Body) he had yeelded himſelf into the hands of his Creator, <hi>ſine do<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ore mo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tis, ſine t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>more paenae,</hi> without pain of death, or fear of puniſhment, and had left his Earthly habitation to his poſterity, who ſhould have poſſeſſed and enjoyed the ſame without any the leaſt con<g ref="char:EOLhyphen"/>tention, or controverſie regulated onely by the <hi>E<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ernal Law</hi> aforeſaid. But (to return) no ſooner ſinne, but with it <hi>ſub<g ref="char:EOLhyphen"/>jection</hi> entred as a cur<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e, and therfore God ſaid to woman, that ſhe ſhould not onely bring forth in pain (which God would have di<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>penced withall if ſhe had not ſinned) but alſo that <hi>her <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eſir<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſhould be ſubject to her Husband, and he ſhould reign over her, Gen.</hi> 3. 16. It is very probable that if ſhe had not ſinned, ſhe ſhould notwithſtanding have ten<g ref="char:EOLhyphen"/>dred a re<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>erence to her Husband as more noble in Sex, and created before her in time but ſhe ſhould not have rendred <hi>a ſubjective Obedience,</hi> if diſobedience had not made her ſubject.</p>
+            <p n="4">4 And albeit that ſubjection is a ſcourge of ſinne, yet it hath plea<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed the Almighty according to his divine will, to cauſe ſome Perſons, and Nations<g ref="char:punc">▪</g> to be more ſubject then other ſome; many times enthralling, and enſla<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ing them by Tyrannicall, or Imperious Inſtruments for their ſinnes (as the ſacred Bookes of the Judges, Kings and Chronic<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es ſufficiently declare) and upon their Humilia<g ref="char:EOLhyphen"/>tion, or for other ſecret cauſes known to his Divine wiſ<g ref="char:EOLhyphen"/>dome, he hath mercifully releaſed, or mitigated their yoak as the ſacred Writ<g ref="char:punc">▪</g> yea and humane Records teſtifie at large: And ſometimes God hath done this by ſpeciall, or miraculous meanes, as he did to the people of I<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rael; ſometimes by ordinary wayes, as the Florentines (albeit
+<pb n="4" facs="tcp:113652:5"/> of late enſlaved) purchaſed their liberty of the Emperour for money, and ſo alſo did other Cities of <hi>Italy,</hi> and elſe-where in <hi>Europe,</hi> others by plain defiance and Arms, have regained their Freedome <hi>(that is, to diſpoſe of them<g ref="char:EOLhyphen"/>ſelves)</hi> as did the Cantons of <hi>Switzerland,</hi> the Provinces of <hi>Holland, Zoland,</hi> &amp;c. and either of theſe wayes may be ſaid to be juſt; for <hi>Id Iuris eſt, quod Na<g ref="char:EOLhyphen"/>tionis eſt,</hi> that is lawfull, or <hi>Law which a</hi> 
+               <note place="margin">Id <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uris eſt, qu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d Nationis eſt; <hi>id eſt, Id Jure humane obligat Nationem intra ſe, cujus conſenſu Generali quid conſtitutum eſt, quamvis illud non ſit ſemper ſynodice Juri Divino, et rectae Rationi con<g ref="char:EOLhyphen"/>ſentaneum; et Ratio est, quia Homines ſe mutuo tam inconvenienter; quam conve<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nter obligare poſsunt.</hi>
+               </note> 
+               <hi>Nation generally approveth, or admitteth of;</hi> and there need no ſpeciall Warrant from God for any thing that they ſhall do agree<g ref="char:EOLhyphen"/>able to their Naturall or Humane Reaſon, any more then it needed to the petty Kings and people of <hi>So<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>om,</hi> and <hi>Gomorrah</hi> (inſtan<g ref="char:EOLhyphen"/>ced in my former Treatiſe) or to the Nation of the Jewes in the time of the M<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>chebees: And albeit that a <hi>Nation in generall</hi> ſhould approve, and admit an erroneous Law (as I know not any Nation, State, or Parliament that is infallible) yet ſuch <note place="margin">States or Parliaments are collective, or Repreſen<g ref="char:EOLhyphen"/>tative Nations not Univer<g ref="char:EOLhyphen"/>ſall, or Eſſen<g ref="char:EOLhyphen"/>tiall; <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> in <hi>England</hi> and <hi>Holland.</hi>
+               </note> Law ought to be kept, and obſerved as <hi>a Law,</hi> becauſe men have power to tye and oblige themſelves to incon<g ref="char:EOLhyphen"/>veniences (if God prevent not and prudent Reaſon di<g ref="char:EOLhyphen"/>ctate not the contrary) as to conveniences, and their Er<g ref="char:EOLhyphen"/>rour being Nationally generall, muſt either be <hi>admitted</hi> of all perſons (comprehended within their Rule) as <hi>legally just,</hi> or elſe <hi>permitted,</hi> becauſe it is conſtituted by the high<g ref="char:EOLhyphen"/>eſt Power humane, from which there is no appeale but to God, who in his good time will either <hi>mercifully</hi> illu<g ref="char:EOLhyphen"/>minate their underſtandings ro reform their Errour, or <hi>juſtly</hi> chaſtiſe them for their perſeverance in Errour.</p>
+            <p n="5">5. And the Rule of a <hi>Free-born People,</hi> or a People <hi>free to diſpoſe themſelves</hi> conſiſts in that, wherein the People in generall conſtitute or determine themſelvs, not in that wherein they are conſtituted, or <note place="margin">
+                  <hi>Conſtitutio populi liberi con<g ref="char:EOLhyphen"/>ſtat in eo quo ſe conſtituit Populus, non in eo quo con<g ref="char:EOLhyphen"/>ſtituitur Populus; et Ratio eſt quia talis conſtitutio de<g ref="char:EOLhyphen"/>bet eſſe</hi> Active <hi>libera, non</hi> paſ<g ref="char:EOLhyphen"/>ſive <hi>reactiva.</hi>
+               </note> determined, <hi>tanquam ab alio ag<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nte,</hi> by ſome other inſtrumentall cauſe, for then are they
+<pb n="5" facs="tcp:113652:5"/> not free: So that it is deſtructive to the very Eſſence of their Freedome not to be able to determine themſelves to that which they conceive to be <hi>Bonum commune,</hi> that being their adaequate, and proper object: and this they muſt not be able to do ſometimes only, and <hi>originally,</hi> but <hi>perpetually,</hi> otherwiſe, <hi>deficiunt a libertate proprie loquende, &amp; ſunt tantum liberi ſecundum quid, vel denominative;</hi> they ceaſe to ſpeak truly, to be free, and are onely free in De<g ref="char:EOLhyphen"/>nomination, or a kind of Titulary Freedome; for naturall Reaſon dictates, that every thing ceaſes to continue, when the Form thereof, or the Originall Form ceaſes to be; ſo that if a people can <hi>Originally</hi> diſpoſe or determine themſelves, and cannot afterwards <hi>Actually</hi> do it, their O<g ref="char:EOLhyphen"/>riginal power, or form of diſpoſing, or determining them<g ref="char:EOLhyphen"/>ſelves <note place="margin">A free Nation or People can ever Actually doe it, when they are ne<g ref="char:EOLhyphen"/>ceſſitated, or enforced to uſe their <hi>Pri<g ref="char:EOLhyphen"/>mitive or in<g ref="char:EOLhyphen"/>tenſive Power,</hi> and reſume their Power intruſted.</note> ceaſes to be.—But it is to be noted, that no Peo<g ref="char:EOLhyphen"/>ple in the world (intending to be free) <hi>ſubditi potius quam ſubjecti,</hi> and who have either conſerved their Originall Freedome, or Actually regained it, do, or did ever grant a Power to one, or more, or conſtitute a Power in one, or more that ſhould be deſtructive to their intended Origi<g ref="char:EOLhyphen"/>nall Freedome; For as <hi>Iohn Cook</hi> of Grayſ-Inne Barre<g ref="char:EOLhyphen"/>ſter, in his Epiſtle Dedicatory, in a Booke entituled the <hi>
+                  <g ref="char:V">Ʋ</g>indication of the Profeſſours, and Profeſſion of the Law,</hi> hath ingeniouſly ſaid; <hi>All Power and Authority is given for preſervation, and edification, nothing for deſtruction and deſolation;</hi> ſo that albeit a People, or Nation, to avoid diſorder, do conſtitute a Ruler, or Rulers to conſerve Or<g ref="char:EOLhyphen"/>der, and do generally conſent to direct their humane Af<g ref="char:EOLhyphen"/>faires according to <hi>ſuch Rules</hi> as ſhall be by him, or them or both given, or preſcribed; yet they ever intend that <hi>ſuch Rules</hi> muſt not be directly oppoſite, or againſt the Law of Nature, or their Naturall Liberty; if they be, they may chuſe whether, or no they will admit, or receive, them; they conſtitute, or inſtitute in their Ruler, or Ru<g ref="char:EOLhyphen"/>lers their power <hi>extenſive,</hi> but not primitive, or <hi>intenſive,</hi> that is to ſay, their innate and inſeperable Freedome ever
+<pb n="6" facs="tcp:113652:6"/> intended to diſpoſe, or determine themſelvs, <hi>In bonum com<g ref="char:EOLhyphen"/>mune</hi> 
+               <note place="margin">In bonum commune, &amp;c. <hi>vrgente neceſſitate co<g ref="char:EOLhyphen"/>activa; ut Antea.</hi>
+               </note> 
+               <hi>prout omnibus viſum<g ref="char:punc">▪</g> erit,</hi> this they never part, or par<g ref="char:EOLhyphen"/>ted withall; for at what time ſoever they ſhould do it, they ceaſe to be <hi>Populus liber, or liberi ſubdits,</hi> a free People, or a People which are freely under a Law by common con<g ref="char:EOLhyphen"/>ſent as aforeſaid.—And of this I ſhall inſtance a ſimili<g ref="char:EOLhyphen"/>tude in Nature: The Element of Water is not of it ſelfe <hi>extenſively</hi> coloured, but is apt or applicable to receive any colour; yet it is <hi>intenſively</hi> white (it being Natures Innocent Originall colour) as is ſufficiently diſcerned, when it is converted into Snow, or congealed into Ice, or praecipitated Torrent-like, by an extraordinary fall: ſo Peo<g ref="char:EOLhyphen"/>ple or Nations are not of themſelvs <hi>extenſively</hi> regulated but apt or applicable to receive any Rule, w<hi rend="sup">ch</hi> they, whom they inſtitute, or intruſt, ſhall apply unto them; howſo<g ref="char:EOLhyphen"/>ever they are <hi>intenſively free to diſpoſe themſelves</hi> (it being their Natural-Innocent-Originall Rule) as is ſufficiently diſcerned by the ſeverall Alterations of Government in Athens, Rome, Geneva, Switzerland, Holland, and many other places, where the peoples affections have been either congealed by their over-domineering Lords (as it were creatures of the ſecond Region of the Ayre) or (Torrent-like) have been praecipitated by an extaordinary fall, oc<g ref="char:EOLhyphen"/>caſioned by ſome violent diſturbers of their common Li<g ref="char:EOLhyphen"/>berty (<gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) the generall benefit of Man<g ref="char:EOLhyphen"/>kind. For my part, Anathema be to ſuch, who deſire to deprive a King of His juſt Prerogative; Anathema be to ſuch, who deſire to deprive a Parliament of their juſt Pri<g ref="char:EOLhyphen"/>viledge: but Anathema Maranatha be to ſuch who ſhould any way deſire to deprive a Free-born People of their juſt Liberty, or Propriety.</p>
+            <p n="6">6. Nor can I conceive, but that the Engliſh Nation, or People are (if rightly conſidered) one of the moſt freeſt Nations in the World; for they cauſe, or require their Kings to take their Oaths <hi>to conſerve their Lawes and Li<g ref="char:EOLhyphen"/>berties,</hi> before the Crown actually inveſt their Temples;
+<pb n="7" facs="tcp:113652:6"/> thereby ſhewing that they reſerue, and <hi>intend their generall Liberty and Propriety;</hi> And albeit, that a King of Eng<g ref="char:EOLhyphen"/>land have his <hi>Ius Regnandi,</hi> or Right of Reigning by In<g ref="char:EOLhyphen"/>heritance as I have inſtanced in my former Treatiſe; yet <hi>illud jus quamvis ſit quoad potentiam, ſive officium poteſtatis derivativum, eſt tamenquoad exercitium poteſtatis Relativum,</hi> that Right of Reigning, although it be derivative in re<g ref="char:EOLhyphen"/>ſpect of the Kings perſonall Authority, or rather Office <note place="margin">Derivativum a Deo ordina<g ref="char:EOLhyphen"/>ri<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> per ſucceſ<g ref="char:EOLhyphen"/>ſionem.</note> for Authority, yet is it relative in reſpect of his Exerci<g ref="char:EOLhyphen"/>ſing, or performing that Authority; for though the peo<g ref="char:EOLhyphen"/>ple obey the King as their chiefe Ruler, or Magiſtrate be<g ref="char:EOLhyphen"/>fore his Oath taken, yet it is ever with reference, or rela<g ref="char:EOLhyphen"/>tion, that He ſhould take His Oath for their preſerva<g ref="char:EOLhyphen"/>tion, and good in generall, and performe the ſame; other<g ref="char:EOLhyphen"/>wiſe they have recourſe to their primitive, or <hi>intenſive power,</hi> as in the caſe of <hi>Edward</hi> the ſecond, from whom Sir <hi>William Ruſſell,</hi> Speaker of the Parlia<g ref="char:EOLhyphen"/>ment, <hi>in the name of all men, or people of</hi> 
+               <note place="margin">Graſton Chron. Hoc factum fuit legitim<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, ſecundum Jus Primiti<g ref="char:EOLhyphen"/>vum, ſive intenſivum Populi, Anne tamenlegitimo in foro conſcien<g ref="char:EOLhyphen"/>tiae &amp; rectae Rationis modi<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> queſtio eſt.</note> 
+               <hi>England,</hi> conſtrained, or took his Royall Office, or Authority; or to ſpeak more truly, deprived him of it, without any former preſident, exerciſing the <hi>intenſive power</hi> of the people; for <hi>Truſſell</hi> ſaid not to EDWARD the ſecond, in the Name of the Lords and Commons aſ<g ref="char:EOLhyphen"/>ſembled in Parliament, or in the Name of the Commons aſ<g ref="char:EOLhyphen"/>ſembled in Parliament, but in the Name of all men or people of England, &amp;c. thereby expreſſing, or manifeſt<g ref="char:EOLhyphen"/>ing the Peoples <hi>Primitive, or intenſive Power,</hi> more then the Parliaments <hi>ſecundary or extenſive Authority.</hi>
+            </p>
+            <p n="7">7. And as the Engliſh Nation, or People cauſe their Kings formally to ſwear, or take their Oaths to conſerve their Lawes, and Liberties; ſo they cauſe the Parlia<g ref="char:EOLhyphen"/>ment (I meane the Body collective, or repreſentative of the People, <hi>viz.</hi> the Knights, Citizens, and Burgeſſes) to take their Oaths (if not formally) yet at the leaſt <hi>vir<g ref="char:EOLhyphen"/>tually,</hi>
+               <pb n="8" facs="tcp:113652:7"/> to conſerve their generall Liberty, and Propriety, to do all good they may for the places that intruſt them; all which they faithfully promiſe at their Elections: So that the Engliſh Nation, or People never gave, or volun<g ref="char:EOLhyphen"/>tarily aſſented, that their Kings, or Parliaments, or Both, ſhould have an abſolute Domineering, or Arbitrary po<g ref="char:EOLhyphen"/>wer over them, but onely a <hi>Diſcretive,</hi> or Legall <hi>Authori<g ref="char:EOLhyphen"/>ty intended ever for their good in generall; their ever reſerved,</hi> and as it were <hi>Eſſentiall Propriety.</hi>
+            </p>
+            <p n="8">8. Wherefore I cannot but marvell at ſuch (whether Kingly Royaliſts, or Parliamentary Realiſts, in this caſe it makes no matter) as by a kind of Idolizing King, or Parliament, or King and Parliament, would ſuppoſe, or perſwade the People, that <hi>their Lives, Liberties, and Pro<g ref="char:EOLhyphen"/>prieties are diſpoſable by King, and Parliament, ad Placi<g ref="char:EOLhyphen"/>tum;</hi> one <hi>Iohn Cook</hi> of Grayes-Inne Barriſter, by me al<g ref="char:EOLhyphen"/>ready cited, hath in his Vindication of the Profeſſours, and Profeſſion of the Law inſerted, that I have in my former Book, intituled, <hi>The Sphear of Government,</hi> introduced a dangerous Opinion, by putting, or ſtating a ſuppoſition, or rather a Praeſuppoſitive caſe, that <hi>if King, and Parlia<g ref="char:EOLhyphen"/>ment, or King, or Parliament, ſhould make an Act that they would, and might diſpoſe of all Subjects Eſtates in England (he ſhould have added ad Placitum,</hi> for thoſe are my words) <hi>that in ſuch caſe the Counties, Cities, and Townes corporate might if not remedied declare, and proteſt againſt ſuch an Act, if violated, then they might defend themſelves by Armes.—</hi>And to convince this my Aſſertion, in the next Page, he ſayes, <hi>if the ſupream Court be not ſupream to all intents, it is not ſupream to any intent, becauſe there is an higher above it;</hi> this is no good conſequence; for a Power (and conſe<g ref="char:EOLhyphen"/>quently a Court of Power) may bee ſupream to ſome things, yet not to all: the King of Poland, for life, is ſupreame to appoint what place he thinks fit within the Precincts of the Dominions of Poland for the conve<g ref="char:EOLhyphen"/>ning
+<pb n="9" facs="tcp:113652:7"/> or aſſembling the Diets, or Courts of the Peers Spirituall and Temporall of that Kingdome; and the King of Poland is alſo <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>upreame to cenſure, or puniſh a<g ref="char:EOLhyphen"/>ny of his owne Tenants, and Vaſſals, or Slaves; yet is he not ſupreame to cenſure, or puniſh any of the chiefe Nobility, but by conſent of his Aſſembly, or Court of Peers; nor can hee meddle with any of their Tenants, Vaſſals, or Slaves; or determine abſolutely of Peace or Warre, &amp;c. In the Common-Wealth of Geneva (which he calls a pure Democracy) the People in generall are ſu<g ref="char:EOLhyphen"/>preame <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o nominate, or elect Two Hundred which are the Grand-Councell; and thoſe Two Hundred are ſu<g ref="char:EOLhyphen"/>preame to nominate, or elect the Twenty five, and yet not ſupreame to elect the foure Syndiques, or Annuall Go<g ref="char:EOLhyphen"/>vernours, or rather Rulers, &amp;c. So that it is no good con<g ref="char:EOLhyphen"/>ſequence (as afore-ſaid) to affirme that, <hi>if the Supreame Court be not ſupreame to all intents, it is not ſupreame to any intent, becauſe there is another above it;</hi> For in Geneva it is evident, that the Two Hundred, or <hi>Gra<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d-Councell,</hi> is the ſupreame Gourt, and yet not ſupream to all Intents; the People indeed, or Common-Wealth in generall, (which are the ſupreame Power, though not Court) are ſupreame to all Intents; but of that hereafter.</p>
+            <p n="9">9. But the Gentleman ſayes, that <hi>there are in the King<g ref="char:EOLhyphen"/>dome ſo many thouſand Acres of Land, either the Parliament may ſettl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, and determine the Right of all their Acres</hi> (hee meant ſurely thoſe Acres) <hi>or not of any one of them, for there is no medium, &amp;c.</hi> But what is this to the purpoſe, of the Parliament having a power to diſpoſe of all Sub<g ref="char:EOLhyphen"/>jects Eſtates <hi>ad placitum?</hi> who knowes not, but that the Parliament can determine the Right of all Acres in England, <hi>in foro judicii,</hi> as v. g. the Parliament can de<g ref="char:EOLhyphen"/>termine whether White Acre belong of Right to Oakes, or Stiles, let the Title of either of them be never
+<pb n="10" facs="tcp:113652:8"/> ſo difficult, or obſcure, and the Parliament can determine whether or no, Oakes or Stiles have forfeited their Pro<g ref="char:EOLhyphen"/>priety of, or to White Acre for Delinquency, &amp;c. More<g ref="char:EOLhyphen"/>over the Parliament can (which no other Court can doe) <hi>applicare in neceſſitatem Regni,</hi> apply to, or for the neceſſity of the Kingdome ſo much of the profits of White Acre, as to them ſhall ſeeme convenient; provided that the cauſe, or cauſes thereof be made manifeſt, that Oakes, Stiles, and all men may (if they will) take notice there<g ref="char:EOLhyphen"/>of; and provided alſo, that an Accompt be given how and which way the profits of White Acre have beene for ſuch cauſe, or cauſes applyed, and diſpoſed of; for no Free-born Engliſh-man (much leſſe the Nation in gene<g ref="char:EOLhyphen"/>rall) ought to be deprived of any his Right, or propriety without good cauſe: Notwithſtanding the Parliament of England cannot <hi>diſponere ad Placitum,</hi> diſpoſe at their will and pleaſure barely of White Acre (no, nor of one <note place="margin">
+                  <hi>quo modo una particula terrae</hi> ad placitum <hi>diſponi poteſt eo modo &amp; om<g ref="char:EOLhyphen"/>nis Terra in Regno Angliae diſponenda ſo<g ref="char:EOLhyphen"/>r<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t.</hi>
+               </note> Acre of waſte in England) v. g. that whereas White Acre belongs of Right to Oakes, Stiles ſhall notwith<g ref="char:EOLhyphen"/>ſtanding have it becauſe it is their will and pleaſure; this they cannot doe; for at what time they ſhould do it (al<g ref="char:EOLhyphen"/>beit I ſuppoſe it almoſt impoſſible that they ſhould do it, as I have formerly inſtanced) they fayle, or fall from the Protection of the People, and uſurpe to themſelves an ab<g ref="char:EOLhyphen"/>ſolute Arbitrary and irregular Power, deſtructive to the generall good of the People, and conſequently ceaſe to be a Parliament, and become Tyrants, and Oppreſſors.</p>
+            <p n="10">10. I cannot therefore but ſomewhat admire, that a Lawyer, and one that ſeemeth unto me to have under<g ref="char:EOLhyphen"/>ſtood Logic, ſhould be (having been as it ſeemes to me ſometimes ſeaſoned with Intellectuals) ſo unſound in his Intellectuals, as not to diſtinguiſh between <hi>Diſpoſing at Pleaſure, and Determining of Right, or ſetling according to Right,</hi> being things of a different <hi>ſpecies,</hi> and not <hi>magis,</hi> or
+<pb n="11" facs="tcp:113652:8"/> 
+               <hi>minus</hi> in the ſame <hi>ſpecies.</hi> But it is not amiſſe to take a lit<g ref="char:EOLhyphen"/>tle notice how the Gentleman oppoſes himſelf; in his Book Page 4. he ſayes, <hi>it is reſolved in the Earl of</hi> Leice<g ref="char:EOLhyphen"/>ſters <hi>Caſe, that an Act of Parliament againſt the Law of God and Nature is void; but this muſt be cautiouſly underſtood</hi> (ſayes he) <hi>that I ſpeak not of ſecundary, or leſſe principalls of Nature,</hi> &amp;c. Pray let him tell me, whether to diſpoſe of Oakes, or Stiles white Acre <hi>ad Placitum,</hi> be not directly againſt the Law of God and Nature; the Decalogue ſayes, <hi>Thou ſhalt not ſteale; Thou ſhalt not deſire thy Neigh<g ref="char:EOLhyphen"/>bours houſe,</hi> &amp;c. and Nature dictates, <hi>doe, as thou wouldſt be done unto;</hi> Now he, or they that diſpoſe at their owne pleaſure, of theit Neighbours Acre, or Acres, <hi>do steale,</hi> for that he, or they deprive their Neighbour, or Neigh<g ref="char:EOLhyphen"/>bours of their Right, and Propriety; they covet alſo, for that they deſire, and acquire to themſelves a power of diſpoſing at pleaſure; they oppoſe alſo directly the Law of Nature, for they would not have any one to diſpoſe of their Propriety, <hi>ad Placitum,</hi> or at their own wills, and therefore ought not to doe it to another; ſo that if the King and Parliament ſhould make an Act, or King, or Parliament make an Ordinance, that <hi>they might diſpoſe of all Subjects Eſtates, ad Placitum,</hi> &amp;c. they oppoſe <hi>the Law</hi> 
+               <note place="margin">Plowdens Comment.</note> 
+               <hi>of God and Nature,</hi> and even by his own citation, and aſſertion, it is void; and I am ſure it is alſo directly op<g ref="char:EOLhyphen"/>poſite to the Rule, frame, and conſtitution of a free Na<g ref="char:EOLhyphen"/>tion (ſuch as are the Engliſh, being no Turkiſh, or Muſ<g ref="char:EOLhyphen"/>covian ſlaves) where the Rulers and Governours are but intruſted (as I in my former Treatiſe have inſtanced) for the generall good of the Nation: And the Gentle<g ref="char:EOLhyphen"/>man, albeit he hath cavelled at me in the latter end of his Book, yet hath he confeſſed, and acknowledged as much in his Epiſtle Dedicatory in two ſeverall places: the firſt is by me already cited, notwithſtanding I will mention the words again; which are, <hi>all Power and Authority is</hi>
+               <pb n="12" facs="tcp:113652:9"/> 
+               <hi>given for Preſervation, and Edification, nothing for deſtructi<g ref="char:EOLhyphen"/>on,</hi> 
+               <note place="margin">Diſpoſitio mere ad Placi<g ref="char:EOLhyphen"/>tum, eſt deſtru<g ref="char:EOLhyphen"/>ctio &amp; deſola<g ref="char:EOLhyphen"/>tio.</note> 
+               <hi>and deſolation;</hi> the others in the ſame page are, <hi>for by the fundamental conſtitutions of this Kingdom, and the very frame and ſeries of Government, the Power is intruſted into their hands to ſuperintend and ſuperviſe all other Courts of Iuſtice;</hi> Now ſurely if Power be intruſted to t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e Parliament (as truly it is) then can they not go beyond their Truſt to diſ<g ref="char:EOLhyphen"/>poſe of the Free People of England their Eſtates, <hi>ad Pla<g ref="char:EOLhyphen"/>citum,</hi> but onely to determine of them, <hi>ad Rectum,</hi> or <hi>Ius,</hi> or to apply them <hi>ad neceſſitatem Regni,</hi> to or for the ne<g ref="char:EOLhyphen"/>ceſſity of the Kingdome, of which neceſſity they are the <note place="margin">☞</note> Judges.—The Gentleman ſayes, that <hi>many a man marryes a widow that would be gladly rid of her children:</hi> for my part, I know not whether, or no, the Gentleman be marryed; or whether he have marryed a Maid, or Wid<g ref="char:EOLhyphen"/>dow, but I am ſure (if he rightly conſider it) he may be glad to be rid of his ſick-brain begotten Childe [his Aſ<g ref="char:EOLhyphen"/>ſeveration that the Parliament is unlimited, and conſe<g ref="char:EOLhyphen"/>quently may diſpoſe of all the Subjects, or Peoples E<g ref="char:EOLhyphen"/>ſtates, <hi>ad Placitum]</hi> for I verily believe, that no man found in his Intellectuals will harbour it, or give it enter<g ref="char:EOLhyphen"/>tainment, nor can himſelf ſuſtain it.</p>
+            <p n="11">11. I grant him that the Parliament is the higheſt <note place="margin">Deus eſt cauſa efficiens, &amp; fi<g ref="char:EOLhyphen"/>nalis mundi, quia operatus eſt Omnia per ſe, et propter ſe. Populus etiam eſt cauſa effici<g ref="char:EOLhyphen"/>ens, &amp; finalis Parliamenti quia per ſe, &amp; propter ſe illos eligunt, &amp;c.</note> 
+               <hi>Court extenſive (viz.</hi> to conſerve Rule, Order, &amp;c.) but the People in generall <hi>(viz.</hi> the Counties, Cities, and Towns corporate) are the higheſt, or greateſt <hi>Power Intenſive,</hi> in that they are the efficient, and finall cauſe under God, of the Parliament; Now the efficient and finall cauſes are the moſt noble of cauſes, nor are they, or can they be ſubject, or ſubordinate to their owne effects, ſo farre forth as they are cauſes of ſuch effects; ſo that the Parliament can never deprive the Counties, Cities, and Towns Corporate, by any Act, or Ordinance whatſoever, of their innate, and inſeparable Right and Power of
+<pb n="13" facs="tcp:113652:9"/> Electing, or creating Knights, Citizens, and Bur<g ref="char:EOLhyphen"/>geſſes, <hi>de futur<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> or for time to come, whereby a Par<g ref="char:EOLhyphen"/>liament might be inſtituted, or aſſembled by any other way, then by way of <hi>free Election;</hi> no more can the Par<g ref="char:EOLhyphen"/>liament deprive the free People, or Nation of <hi>England,</hi> of their <hi>Generall Liberty, and Propriety,</hi> for in theſe things the Sphear of the Parliaments Activity is circumſcribed by the Nations large Bulke of <hi>Primitive, or intenſive Po<g ref="char:EOLhyphen"/>wer;</hi> Wherefore the Gentleman miſtakes when he ſayes page 89. <hi>It is impoſſible that the ſupreame Court in any Kin<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>me ſhould be limited,</hi> &amp;c. In theſe Precedents, a<g ref="char:EOLhyphen"/>mongſt free Nations all ſupreame Courts are <hi>d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> facto,</hi> li<g ref="char:EOLhyphen"/>mited; as in Aragon Gene<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a<g ref="char:punc">▪</g> &amp;c.</p>
+            <p>And for my part, I cannot find that the Parliament <note place="margin">In <hi>Aragon, Valentia,</hi> and <hi>C<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>lonia,</hi> the three Eſtates, or <hi>Cortes de<g ref="char:EOLhyphen"/>los Regnos,</hi> as they call them cannot alter ſo much as one of their Municip<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Priviledges.</note> Practiceth an unlimited or abſolute Power, for amongſt other things they have inſtituted Committees, and Sub-Committees of Accompts, not onely to vindicate them<g ref="char:EOLhyphen"/>ſelves from the ſcandall imputed by ſome, (viz. that <hi>the Parliament ſhould exact more from the people then the neceſ<g ref="char:EOLunhyphen"/>ſity of the Kingdome req<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ed,</hi> &amp;c.) but alſo to give the people a generall ſatisfaction, how, and which way their Eſtates are applyed, and imployed <hi>for the Neceſſity of the Kingdome.</hi>
+            </p>
+            <p n="12">12. And now I think good further to ſatisfie the Gen<g ref="char:EOLhyphen"/>tleman and ſuch as adhere or incline to his opinion afore<g ref="char:EOLhyphen"/>ſaid, concerning the <hi>Primitive or Intenſive power</hi> of a free People; I have already aid that a free People are ever free to diſpoſe, and determine themſelves<g ref="char:punc">▪</g> 
+               <hi>in Bonum com<g ref="char:EOLhyphen"/>mune, prout omn<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>bus viſum erit,</hi> to a generall common good, as it ſhall ſeeme good to themſelves; and that they never part, or parted with this power, for that at what time ſoever they ſhould doe it they ceaſe to be <hi>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> liber,</hi> or <hi>liber<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſubdit,</hi> a free People<g ref="char:punc">▪</g> &amp;c. And to make this Aſſertion more conſpicuous, and plaine, I inſtance
+<pb n="14" facs="tcp:113652:10"/> this <hi>ſimile;</hi> Joynt Free-holders, or Free-holders joyntly, let a Leaſe for one thouſand, or two thouſand yeares, if the World endure ſo long, <hi>with reſervation notwithſtan<g ref="char:EOLhyphen"/>ding of a continuall acknowledgment to themſelves,</hi> or other<g ref="char:EOLhyphen"/>wiſe the ſaid Leaſe ſhall determine, and ceaſe to be, and it ſhall be lawful for the ſaid Free-holders, their Heires, or Succeſſours to re-enter into the ſaid Free-hold, or Free-holds, and to diſpoſe and ſettle them, at their plea<g ref="char:EOLhyphen"/>ſure: even ſo a free Nation, or People let a Leaſe of their power for one thouſand, two thouſand, ten thouſand yeares if the World ſo long endure, (no matter what time) to their Rulers (whom they inſtitute and intruſt) in which they give and grant power to them of Determi<g ref="char:EOLhyphen"/>ning conſerving, and applying their Liberties, Rights, and Proprieties juſtly, <hi>So to the particular good of every man,</hi> 
+               <note place="margin">☞</note> 
+               <hi>as may not repugne the generall good of all; ſo to the generall good of all men, as may not annihilate the particular good of one unjuſtly, or indirectly;</hi> with reſervation notwithſtan<g ref="char:EOLhyphen"/>ding <hi>of a continuall acknowledgment to, or for themſelves, that they</hi> (viz. the Nation, or People) <hi>are the efficient cauſe of their power, by electing, and creating them; and that they are not to domineer over, or diſpoſe of the<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r Liberties, and Proprieties, ad placitum,</hi> but onely to determine of them <hi>ad Rectum,</hi> and apply them to the generall good of the Kingdome, according to the neceſſity of the Kingdome, Nation, or People, as aforeſaid; if otherwiſe their Po<g ref="char:EOLhyphen"/>wer determines, and ceaſes to be; and it may be lawfull for the Nation or People to re-enter, <hi>viz.</hi> to make uſe <note place="margin">Eo modo quo quid conſtitui<g ref="char:EOLhyphen"/>tur, eodem mo<g ref="char:EOLhyphen"/>do &amp; diſſolvi poteſt.</note> of their firſt primitive power, and to diſpoſe, and ſettle themſelves at their pleaſure, or as they ſhall think good: And even as the Free-holders ceaſe not to be Free-hol<g ref="char:EOLhyphen"/>ders, notwithſtanding their long Leaſe, for that there is a Reſervation of a continuall acknowledgment due unto them, and a power of Re-entry in caſe of Breach of Co<g ref="char:EOLhyphen"/>venants, and the like; even ſo a free Nation, or people,
+<pb n="15" facs="tcp:113652:10"/> ceaſe not at any time to be free, notwithſtanding their <hi>long Leaſe of Truſt,</hi> for that there is a Reſervation of a continuall acknowledgment belonging unto them <hi>(viz.</hi> that they are the efficient cauſe, <hi>de ſaculo in ſaeculum,</hi> from Age to Age) and they have likewiſe a power of uſing their <hi>power p<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tive, and intenſive, or power alwayes intended and reſerved,</hi> in caſes aforeſaid: Notwithſtanding, as the <note place="margin">Immediate ſub Deo Popu<g ref="char:EOLhyphen"/>lus liber, eſt cauſa efficiens, &amp; perpetua potestati<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Regulatae.</note> Free-holders cannot re-enter, but onely in caſe of Breach of Covenant aforeſaid; for if otherwiſe they do it, they are meere Uſurp<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rs, and Oppreſſours; ſo the free Na<g ref="char:EOLhyphen"/>tions, or people cannot uſe their primitive, or intenſive power, but onely when the fundamental frame of their Efficient Power<g ref="char:punc">▪</g> and their Liberties, and Proprieties are deſtroyed, or violated <hi>ad placitum,</hi> as aforeſaid, if other<g ref="char:EOLhyphen"/>wiſe they doe it, they are meere Rebels and Anarchiſts, for they have intruſted all their other Judiciall Power concerning Determination, Conſervation, and Applicati<g ref="char:EOLhyphen"/>on to their Rulers.</p>
+            <p n="13">13. The Gentleman whom I have formerly cited hath ſaid in his Book, that he never heard or read of a<g ref="char:EOLhyphen"/>ny thing more prejudiciall to the Parliaments Authori<g ref="char:EOLhyphen"/>ty, then my Aſſertion in my laſt Book, and in this, <hi>(viz.</hi> that <hi>the Parliament cannot diſpoſe of the Free-peop<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e, or Sub<g ref="char:EOLhyphen"/>jects Estates here in England, ad placitum;</hi> but I muſt tell him that I never read of a more prejudicious, or pernici<g ref="char:EOLhyphen"/>ous to the Parliament, then to ſay that they may doe it; for what ſay many of the vulgar; if the Parliamen<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> may diſpoſe of our Eſtates at their pleaſure, how ſhall wee know t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>at they will not? if any man tell them, that it is very unlikely, that ſo many will never conſent to doe ſuch a thing, for that they might by that mean enſlave their own Poſterities: what ſay they, if they can diſpoſe of all the Subject<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Eſtates <hi>ad placitum,</hi> for ought we know they might exempt themſelves, their Heires, and Suc<g ref="char:EOLhyphen"/>ceſſours;
+<pb n="16" facs="tcp:113652:11"/> and likewiſe for ought we know they might make a Law that they will no more be Elected, or ctea<g ref="char:EOLhyphen"/>ted by the Counties, Cities, and Townes Corporate, but by a perpetuall Denomination by, or from themſelves: and what can be of more dangerous conſequence, then that ſuch an Opinion, or Opinions as theſe ſhould once take root in the mindes of the Common People? and what can ſooner cauſe them to take root then that they finde and reade a printed Booke allowed of to that pur<g ref="char:EOLhyphen"/>poſe? But if one tell the vulgar, that the Parliament cannot diſpoſe of the Subjects Eſtates <hi>ad placitum,</hi> or meerly at their pleaſure, but that they can onely apply in an equall way the Eſtates of the People to or for the ne<g ref="char:EOLhyphen"/>ceſſity of the Kingdome, of which Neceſſity they are the Judges; and likewiſe that the PARLIAMENT cannot make a Law, or Ordinance that the Knights Citizens, and Burgeſſes; ſhall, or may be appointed or denomi<g ref="char:EOLhyphen"/>nated by themſelves (thereby to alter the frame and con<g ref="char:EOLhyphen"/>ſtitution of this NATION) but that they muſt perpetu<g ref="char:EOLhyphen"/>ally from Age to Age be Elected, or created by the Counties, Cities, and Towns Corporate; then they be<g ref="char:EOLhyphen"/>gin to harbour a better Opinion, and are more incli<g ref="char:EOLhyphen"/>nable to undergoe their Ordinances: And I believe that the intent why the HONOURABLE HOUSE OF COM<g ref="char:EOLhyphen"/>MONS publiſhed lately a Declaration the Seventeenth of April. 1646. Ordered to be read in Churches, was to undecei<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e the People that they never had any thought to diſpoſe of their Eſtates <hi>ad placitum,</hi> and ſo forth; for they expreſly ſay, and Declare, <hi>To main<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ain the A<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cient and Fundamentall Government of the Kingdome, to preſerve the Rights and Liberties of the Subject,</hi> &amp;c.—Where<g ref="char:EOLhyphen"/>fore I would not have the Gentleman or any other to run be <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the marke; I like not <hi>Quid <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>imis;</hi> it hath been <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of many Enormities in Church and Com<g ref="char:EOLhyphen"/>mon <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <g ref="char:punc">▪</g> my part I wiſh, <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> I have ever wiſhed,
+<pb n="17" facs="tcp:113652:11"/> and formerly expreſſed my ſelfe, that the King might en<g ref="char:EOLhyphen"/>joy his juſt Prerogative (as ſome call it) or Right of Reigning; and I wiſh, and deſire as much as any other, that the Parliament might ſuſtain their Priviledges, and Judicatory Power; But I could never ſuffer, nor would I if it were in my power any way to prevent it, endure that my Nation, or Fellow Subjects ſhould be enſlaved <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y any Exorbitant Power (Potentate or Potencies) For<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ain or Domeſtic; And I doubt not, but that the Ruler of Heaven and Earth will by his Divine Providence eſta<g ref="char:EOLhyphen"/>bli<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h ſuch Rulers and Rules in this KINGDOME, as may be a meanes to conſerve this Nation from ſlavery and thraldome, AMEN.</p>
+            <p>FVrthermore, having in my former Treatiſe and in this affirmed that the P<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rliament is the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>upreame Power Judicatory to cenſure and determine all matters doubtful, and diſputable (for ſuch hath been the conſtitution of this Kingdom for many Ages) I conceive therefore that the Parliament may<g ref="char:punc">▪</g> and have onely Power to ſettle what Form of Religion they ſhall think good; and albeit they ſhould erre therein (as Parliaments may erre, and ſome <hi>de facto</hi> have erred) yet theit Ordinances oblige <hi>Iure <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>u<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>no;</hi> that is men ought <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ither to obey ſuch Ordinances, or if otherwiſe their Con<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ciences dictate ſuch Ordinan<g ref="char:EOLhyphen"/>ces to be erroneous, they ought to undergoe ſuch penal<g ref="char:EOLhyphen"/>ties <note place="margin">Quicquid eſt contra conſci<g ref="char:EOLhyphen"/>entiam edificat ad peccatum.</note> as ſhould be by them inflicted if they ſhould impoſe or ordain any ſuch: And as it is in the power of the Par<g ref="char:EOLhyphen"/>liament to inflict penalties, ſo is it in their power to miti<g ref="char:EOLhyphen"/>gate penalties, or inflict none at all for matter of Religion; wherfore for my part I greatly honour and reverence the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>are that the Parliament ſeemeth to take, and which the Honourable Houſe of Commons have publiſhed in their
+<pb n="18" facs="tcp:113652:12"/> Declaration 17. <hi>April</hi> 1646. already mentioned, <hi>That they, have not as yet reſolved how tender Conſciences, ſuch as differ not in Fundamentals may be provided for, ſo as may ſtand with the peace of their foules, and peace of the Kingdome;</hi> thereby intimating that they intend not to uſe ſeverity, for mat<g ref="char:EOLhyphen"/>ters of Religion meerly (a courſe though practiced by Pagans, befitting no men much leſſe Chriſtians) but ra<g ref="char:EOLhyphen"/>ther by clemency to induce men to embrace, o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> follow ſuch Orders, or Ordinance; touching Religion, as they ſhall inſtitute: Mor<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>over, I cannot but greatly blame ſuch as would have m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ns Conſciences wrackt and enfor<g ref="char:EOLhyphen"/>ced in diſputable matters, or <hi>Tenets</hi> of Religion; ſuch as blame Domineering in others, and yet would exerciſe it themſelvs not conſidering what the Apoſtle Pet. hath writ<g ref="char:EOLhyphen"/>ten, 1 Pet. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. 3. <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>at Rulers ſhould not be as over-domineer<g ref="char:EOLhyphen"/>ing Lords of Chriſts Flock, but as Types, or examples to the flock; nor do ſuch conſideratly weigh the Apoſtles words, Gal. 6. 1. <hi>Brethren, if a man be overtaken in a fault, ye which are ſpirituall, reſtore ſuch a one in the ſpirit of meek<g ref="char:EOLhyphen"/>neſſe, conſidering thy ſelfe, leaſt thou alſo be tempted;</hi> he bids them not menace much leſſe perſecute for errour, nay the Apoſtle directly forbids it, Gal. 5. 15. <hi>But if <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e bit<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, and de<g ref="char:EOLhyphen"/>vour one another take <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eed ye be not conſumed one of another,</hi> as if he had ſaid, if ye break the Bond of Chriſtian Chari<g ref="char:EOLhyphen"/>ty take heed leaſt God give you not over to your malici<g ref="char:EOLhyphen"/>ous intentions and practices by which ye may become In<g ref="char:EOLhyphen"/>ſtruments one to deſtroy another; The holy Apoſtle like<g ref="char:EOLhyphen"/>wiſe Rom. 14. 10. forbiddeth men directly not ſo much as to judge a Brother for things indifferent, or for things which Chriſtian Liberty in Chriſt giveth leave unto; for ſaith he, We <hi>ſhall all stand before the Indgment Seat of Chriſt:</hi> but it may be ſome will ſay, theſe, and ſuch like Councels, or Precepts of the Apoſtle were ſpoken, or de<g ref="char:EOLhyphen"/>livered by him concerning meekneſſe, to he uſed in admo<g ref="char:EOLhyphen"/>niſhing
+<pb n="19" facs="tcp:113652:12"/> our Brethren, in errours meerly of Practice not of Doctrine, or in things not cleerly expreſſed in Scripture, not in things evident, and plain in Scripture: to ſuch I anſwer; what are the great matters in debate and con<g ref="char:EOLhyphen"/>troverſie, or rather ſmall matters in great ſtrife, and con<g ref="char:EOLhyphen"/>tention now a dayes agitated, but either matters meerly Practicall or exteriour Formes of Worſhip, and Ceremo<g ref="char:EOLhyphen"/>nies, whether tollerable, or intollerable; or elſe matters obſcure, or but by probable Arguments deducible out of Scripture, as Lay-Elders (a Buſineſſe now of dayes, of no ſmall conſequence) whether they be not ſufficiently war<g ref="char:EOLhyphen"/>ranted by this Text, 1 Tim. 5. 17. <hi>Let the Elders that rule well, be counted worthy of double honour, eſpecially they who labour in the Word and Doctrine;</hi> the Greek hath it, <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>labouring in Word and Doctrine,</hi> and from hence it muſt be deduced forſooth, that there were ſome Elders that did not labour in the Word and Doctrine, and conſequently that ſuch were Lay-men; Truly others that are as ſound in their judgments (it may be) as thoſe that make this Deduction, will ſay that the meaning of that Text is this <hi>viz.</hi> Presbyters (or Elders) <note place="margin">It is very probable that ſome Apoſtles and Diſciples in the Primi<g ref="char:EOLhyphen"/>tive times, la<g ref="char:EOLhyphen"/>boured more then others in preaching &amp;c.</note> that rule well be accompted worthy of double honour, in reſpect of the younger or inferiour; but chiefly ſuch as beſide their care, and ordinary performance of their charge labour extraordinarily in Preaching, and exhorting or edifying; even as one might ſay, let Civill Magiſtrates that govern well, be counted worthy of double honour, in reſpect of other ordinary, and inferiour Perſons; but chiefly ſuch as beſide their care, and ordinary perfor<g ref="char:EOLhyphen"/>mance of their Offices according to their Oathes, and Duties, labour extraordinarily for the Publique good by adviſing, and conſulting; I doe not find that it could be deduced from this laſt inference, that Clergie-men were or ought to be Civill Magiſtrates; nor can I finde, that it can well be deduced from the Apoſtles words, that Lay-men
+<pb n="20" facs="tcp:113652:13"/> ought to be Presbyters, or Church-Elders: and yet a great deale of ſtirre is kept about this buſineſſe, and ſuch like; and ſome would faine have their but probable Deductions, if ſo much, to be Orthodoxal Expoſitions, and ſo to be held <hi>de Iure Divina,</hi> that's no preſumption: but by the favor of ſuch, I would fain know whether they are infallible or no; if no why would they then impoſe their Expoſitions <hi>de Iure Divina;</hi> if they are infallible I would gladly know how they now come by ſuch an extraordi<g ref="char:EOLhyphen"/>nary gift of Infallibility, and that the World (by their own acknowledgment) hath wanted it for ſo many Ages, as they ſay, in all Ages ſince the Apoſtles time; as I have ſaid, that in Civill Affaires there ſhould not be <hi>Quid ni<g ref="char:EOLhyphen"/>mis;</hi> ſo I ſay in Church-Affaires and wiſh that men (for alas what are we all but men) would not take upon them <hi>Quid nimis,</hi> eſpecially in matters either indifferent, or elſe obſcure and difficult, or ſuch as may admit of ſever<g ref="char:EOLhyphen"/>all interpretations and Conſtructions. I will inſtance for Example ſake one Text of Scripture; <hi>viz.</hi> 
+               <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <note place="margin">1 <hi>Iohn.</hi>
+               </note> &amp;c. <hi>In the beginning was the word,</hi> &amp;c. All Divi<g ref="char:EOLhyphen"/>nity te<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s us that Eternity is <hi>Identicu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> nunc,</hi> the ſelfe<g ref="char:EOLhyphen"/>ſame now, and that it hath neither <hi>Prius</hi> or <hi>Poſterius,</hi> beginning, or ending what beginning then can the <hi>Eter<g ref="char:EOLhyphen"/>nall <g ref="char:V">Ʋ</g>
+                  <g ref="char:V">Ʋ</g>ord</hi> or Sonne of God) have? no beginning in time becauſe <hi>Eternall,</hi> nor <note place="margin">
+                  <hi>Pater Aeternus non ſemel ſed ſemper dixit verbum Aeternum mentis ſuae (ſive gagnis filium) et Ratio eſt, quia quod agit Pater ſemel ad intra, ſemper agit hodie, &amp; quotidie, quia ad intra nec Prius, nec Poſterius: verba Pſal<g ref="char:EOLhyphen"/>miſtae, ergo,</hi> ex utero ante luci<g ref="char:EOLhyphen"/>ferum Genui te; <hi>non dicunt con<g ref="char:EOLhyphen"/>ſummationem Actus Aeterni, ſed completionem ejus,</hi> ſive perfecti<g ref="char:EOLhyphen"/>onem.</note> in Nature becauſe <hi>Increaſe:</hi> what be<g ref="char:EOLhyphen"/>ginning then? or what may the word <hi>Beginning</hi> in that place ſignifie? Some will have the meaning of that Text to be this; In the beginning when the World was created, the word <hi>(verbum meniis)</hi> of the Fathers underſtanding was, and ſo if that were in the Beginning, that was before all Beginning; but this is no good conſequence, ſayes an Arrian, for the word might bee
+<pb n="21" facs="tcp:113652:13"/> before the World, and yet be <hi>a patre ta<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>quam effectus a cauſa,</hi> be as an effect cauſed by God the Father, and ſo have ſome beginning (as every effect hath) though before the World, and to hold this is Hereſie, for that the Father is not <hi>cauſa filti,</hi> but onely <hi>Principiu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> fil<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i,</hi> not the cauſe, but naturall beginning of the Sonne: others will have the meaning to be thus; in that beginning, or inſtant (which was and is ever, or Eternall) wherein the Father knew formally his Eſſence, and Attributes, he ſpake, or begot the word of his mind, or underſtanding, being a <hi>Terme</hi> of his infinite Knowledge, not produced by ne<g ref="char:EOLhyphen"/>ceſſity, or will, but emaning, or flowing as it were by natur<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll faecundity: Others will have the meaning to be thus; in that beginning or inſtant aforeſaid, wherein the Father knew not onely formally his Eſſence, and attri<g ref="char:EOLhyphen"/>butes, but alſo all creatures poſſible and exiſtent, he ſpake or begot the word of his mind or underſtanding; for <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ay they, the word which is the <hi>Terme</hi> of the Fathers infinite Knowledg is <hi>a perfectiſſim<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, &amp; pleniſſima cognitione ejus,</hi> from his moſt perfect, and fulleſt knowledge; and from hence ariſe divers Arguments <hi>pro &amp; contra,</hi> not onely be<g ref="char:EOLhyphen"/>tween the Thomiſts, Scotiſts and other School-men but alſo amongſt other ſorts or Sects of Chriſtians; but muſt men for theſe, or the like diſputable differences cut one anothers throats, or perſecute one another? God forbid, there is not the leaſt warrant in the New Teſtament for it: in the time of our bleſſed Saviours paſſing his huma<g ref="char:EOLhyphen"/>nity on the Earth, ſome there were caſting out Divels in his Name, whom his Diſciples for<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ad becauſe they fol<g ref="char:EOLhyphen"/>lowed not Chriſt as they did; but our Saviour rebuked them, and bad them ſuffer them, and let them alone, ſay<g ref="char:EOLhyphen"/>ing he, or they that are not againſt us, are with us, ad<g ref="char:EOLhyphen"/>ding moreover that it was not likely that any one ſhould <note place="margin">
+                  <hi>Mar.</hi> 9. 40.</note> doe a miracle in his Name and ſpeak ill of him; our Sa<g ref="char:EOLhyphen"/>viour ſaid not, that ſuch as workt miracles in his Name
+<pb n="22" facs="tcp:113652:14"/> 
+               <hi>ſhould confeſſe, and ſpeake all that ought to be confeſſed, and ſpoken of, or to his honour;</hi> but that ſuch as ſpake not ill of him ſhould (if they confeſſed his Name) be permit<g ref="char:EOLhyphen"/>ted, or ſuffered in this World; and ſhall not we then ſuffer one another in matters of Religion? Shall we am<g ref="char:EOLhyphen"/>bitiouſly compaſſe our Neighbours goods, or meanes, under pretence of Religion, thereby ſcandalizing Chri<g ref="char:EOLhyphen"/>ſtianity: No! let all ſelf-ends be aboliſhed, and Peace and Union be embraced, that we of this Nation may become an <hi>Eliſiu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> of comfort of Chriſtian Charity, and mutuall Amity, one to ano<g ref="char:EOLhyphen"/>ther, and a Preſident of them all to other Nations.</p>
+            <closer>
+               <signed>WILLIAM BALL.</signed>
+            </closer>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:113652:14"/>
+         </div>
+      </body>
+   </text>
+</TEI>
